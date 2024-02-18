@@ -4,11 +4,13 @@ import (
 	"unicode/utf8"
 )
 
-type Discard struct {}
+var Discard DiscardRuneWriter
 
-var _ RuneWriter = Discard{}
+type DiscardRuneWriter struct {}
 
-func (Discard) WriteRune(r rune) (size int, err error) {
+var _ RuneWriter = DiscardRuneWriter{}
+
+func (DiscardRuneWriter) WriteRune(r rune) (size int, err error) {
 	size = utf8.RuneLen(r)
 
 	return size, nil
