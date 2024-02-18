@@ -8,22 +8,22 @@ All of these built-in types are RuneWriters: `bufio.Writer`, `bytes.Buffer`, and
 
 ## Documention
 
-Online documentation, which includes examples, can be found at: http://godoc.org/sourcecode.social/reiver/go-runewriter
+Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-runewriter
 
-[![GoDoc](https://godoc.org/sourcecode.social/reiver/go-runewriter?status.svg)](https://godoc.org/sourcecode.social/reiver/go-runewriter)
+[![GoDoc](https://godoc.org/github.com/reiver/go-runewriter?status.svg)](https://godoc.org/github.com/reiver/go-runewriter)
 
 ## Import
 
 To import package **runewriter** use `import` code like the follownig:
 ```
-import "sourcecode.social/reiver/go-runewriter"
+import "github.com/reiver/go-runewriter"
 ```
 
 ## Installation
 
 To install package **runewriter** do the following:
 ```
-GOPROXY=direct go get https://sourcecode.social/reiver/go-runewriter
+GOPROXY=direct go get https://github.com/reiver/go-runewriter
 ```
 
 ## Author
